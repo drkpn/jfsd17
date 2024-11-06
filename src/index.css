@@ -1,0 +1,69 @@
+.fullPage{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+#footer{
+	width: 100%;
+	height: 35px;
+	background: lightsteelblue;
+	line-height: 35px;
+}
+.pageno{
+	padding: 5px;
+	background: #eee;
+	margin: 1px;
+	cursor: pointer;
+}
+.pageno-selected{
+	padding: 5px;
+	background: dodgerblue;
+	margin: 1px;
+	cursor: pointer;
+	color: white;
+}
+#content{
+	width: 100%;
+	height: calc(100% - 35px);
+}
+.tbl{
+	width: 100%;
+	border: 1px solid silver;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.tbl th{
+	height: 32px;
+	background: lightsteelblue;
+	border: 1px solid silver;
+}
+.tbl td{
+	height: 32px;
+	border: 1px solid silver;
+}
+.tbl tr:nth-child(odd) {
+	background: whitesmoke;
+}
+.tbl .ch1{
+	width: 100px;
+}
+.tbl .ch2{
+	width: 300px;
+}
+.tbl .ch3{
+	width: 100px;
+}
+.tbl .cd1{
+	text-align: center;
+}
+.tbl .cd2{
+	text-align: left;
+}
+.tbl .cd3{
+	text-align: center;
+}
