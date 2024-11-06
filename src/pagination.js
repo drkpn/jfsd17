@@ -26,10 +26,10 @@ class Pagination extends React.Component
 		//pageSelected = cpage;
         this.setState({pageSelected : cpage});
 		
-		var dataurl = "http://13.233.104.143:8080/pagination/student/getstudents/"+ cpage +"/15";
+		var dataurl = "http://13.201.19.45:8080/pagination/student/getstudents/"+ cpage +"/15";
 		callApi("GET", dataurl, "", this.generateTable);
 		
-		var pageurl = "http://13.233.104.143:8080/pagination/student/getpages/15";
+		var pageurl = "http://13.201.19.45:8080/pagination/student/getpages/15";
 		callApi("GET", pageurl, "", this.generatePages);
 	}
 
